@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:background="#dfe0df"
+    android:id="@+id/nestedScrollView"
+    android:layout_height="match_parent"
+    tools:context=".MountainPose">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="40dp"
+        android:background="#fbfbfb"
+        android:id="@+id/layoutContainer"
+        android:layout_height="match_parent">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:src="@drawable/mountainpose"
+        android:scaleType="fitXY"
+        android:id="@+id/mountainimage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="16dp"
+            android:layout_height="50dp"
+            app:backgroundTint="@color/white"
+            android:gravity="center"
+            app:iconSize="34dp"
+            app:iconTint="@color/black"
+            app:icon="@drawable/ic_arrow_back_black_24dp"
+            android:id="@+id/backbuttonofYogaday"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mountain pose"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/mountainPose"
+        app:layout_constraintTop_toBottomOf="@+id/mountainimage"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/mountainPose"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/mountainPoseKasariGarne"
+        android:text="How to do it"
+        android:textColor="#0000FF"
+        android:layout_marginLeft="16dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="16dp"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:layout_marginRight="16dp"
+        android:id="@+id/mountainposeText"
+        android:textAlignment="viewStart"
+        app:layout_constraintTop_toBottomOf="@+id/mountainPoseKasariGarne"
+        android:text="@string/moutainPoseKasariGarne"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mountainposeText"
+        android:text="Benefits"
+        android:layout_marginLeft="16dp"
+        android:textColor="#0000FF"
+        android:id="@+id/mountainPosebenefits"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mountainPoseBenefits"
+        android:id="@+id/mountainPoseBenefitsAns"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginRight="16dp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@+id/mountainPosebenefits"
+        android:layout_marginLeft="16dp"
+        android:textSize="14dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,253 @@
+<resources>
+    <string name="app_name">Yoga</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_planning_page_navigation_drawer">PlanningPageNavigationDrawer
+    </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="moutainPoseKasariGarne">Stand with your feet together or hip-width apart. Ground down through the four corners of your feet. Roll your shoulders away from your ears, draw your shoulder blades down your back, and lift the crown of your head.\n\n
+
+Engage your thighs, draw your belly button in, and lengthen up through the spine. Turn your palms facing the front of the room. Relax your jaw and unfurrow your brow. Breathe easy.</string>
+
+    <string name="mountainPoseBenefits">It may seem like you’re, well, just standing there, but bear with us. This is the blueprint for all other poses. It promotes balance and directs your attention to the present moment.</string>
+    <string name="chairPose">Start in Mountain Pose. As you inhale, raise your arms, spread your fingers, and reach up through your fingertips. As you exhale, sit back and down as if sitting into a chair.\n\n
+
+Shift your weight toward the heels and lengthen up through the spine. As you inhale, lift and lengthen through your arms. As you exhale, sit deeper into the pose.</string>
+
+    <string name="chairPoseBenefits">This heating standing pose (give it a minute, you’ll feel the burn) strengthens your legs, upper back, and shoulders. As a bonus, you’ll have an opportunity to practice patience as your thighs work hard. Just remember to breathe.</string>
+
+    <string name="downDogOnChair">Place your hands on the chair with palms shoulder-distance apart. Step your feet back until they align under hips, creating a right angle with your body, spine parallel with the floor.\n\n
+
+Ground through your feet and lift through thighs. Reach hips away from hands to lengthen the sides of your torso. Firm your outer arms in and lengthen through the crown of your head.</string>
+
+    <string name="downDogOnChairBenefits">Downward-Facing Dog is the bread and butter of yoga, but it can be challenging for beginners.\n\n
+
+This modification shares the same benefits as the classic pose — stretching the hamstrings, opening the shoulders, and creating length in the spine — without all the weight on your upper body.</string>
+
+    <string name="DownwardFacingDog">From all fours, walk your hands 6 inches in front of you. Tuck your toes and lift your hips up and back to lengthen your spine. If your hamstrings are tight, keep your knees bent in order to bring your weight back into the legs.\n\n
+
+Spread your fingers wide, press into your hands, and rotate your arms so that your biceps are facing toward one another. Press your thighs back toward the wall behind you.</string>
+
+
+    <string name="warriorsecond">Stand with feet wide, 3–4 feet apart. Shift your right heel out so your toes are pointing slightly inward. Turn your left foot out 90 degrees. Line up your left heel with the arch of your right foot.\n\n
+
+Bend your left knee to a 90-degree angle, keeping the knee in line with the second toe to protect the knee joint. Stretch through your straight back leg and ground down into the back foot.\n\n
+
+On an inhale, bring arms to a T at shoulder height. Draw your shoulder blades down the back. Spread your fingers and keep palms facedown. Gaze over the front fingers. As you exhale, sink deeper into the stretch.</string>
+
+    <string name="warriorsecondbenefits">A pose with “warrior” in its name may not sound very zen, but this standing pose can help calm and steady your mind. Tougher than it looks, it also strengthens your legs and ankles while increasing stamina.</string>
+
+    <string name="trianglepose">Stand with feet wide, 3–4 feet apart. Shift your right heel out so your toes are pointing slightly inward. Turn your left foot out 90 degrees. Line up your left heel with the arch of your right foot.\n\n
+
+Keeping both legs straight, ground through your feet. Lift arms into a T at shoulder height. Reach forward with your front arm. When you can’t reach anymore, hinge at the front hip.\n\n
+
+Bring your front arm down to your shin, a foam block, or the ground. Lift your back arm up toward the sky and spread your fingers. Take your gaze down to the floor or up toward your lifted hand.</string>
+
+    <string name="triangleposebenefits">While this pose can be challenging for those with tight muscles, it will help promote balance, stretch the hamstrings and inner thighs, and create a feeling of expansion in the body.</string>
+    <string name="downwardFacingDogBenefits">This classic pose opens your shoulders, lengthens your spine, and stretches your hamstrings. Since your head is below your heart, the mild inversion creates a calming effect.</string>
+
+    <string name="treepose">Start in Mountain Pose. Find a fixed point in front of you and stare at it to help you balance.\n\n
+
+As you inhale, shift the weight into your left foot and lift your right foot an inch off the floor. Using your right hand, bring the foot to your shin or inner thigh. Avoid placing your foot directly on the knee.\n\n
+
+As you exhale, ground through the standing leg and lengthen through the crown of your head. Bring your palms to touch in front of your sternum into prayer hands.</string>
+
+    <string name="treeposebenefits">This pose helps improve concentration and your ability to balance by strengthening the arches of the feet and the outer hips.</string>
+
+    <string name="bridgepose">Lie faceup with knees bent, feet flat on the floor, and arms at your sides with palms facedown. Keep your feet parallel and hip-width apart, heels stacked under knees.\n\n
+
+On an inhale, activate through the legs and the glutes. Press the floor away with your feet and lift the hips off the floor toward the sky.\n\n
+
+If your shoulders are tight and you want more leverage, try holding the sides of your yoga mat and lifting your hips. You may also wish to interlace your fingers underneath your “bridge” and shimmy your shoulders under the chest.\n\n
+
+When you’re ready to come down, lift your heels up and slowly lower your hips back to the ground, one vertebra at a time</string>
+
+    <string name="bridgeposebenefits">This energizing backbend opens your chest and stretches your neck and spine. It can calm the mind, reduce anxiety, and help improve digestion.</string>
+
+    <string name="boundankle">Sitting on the floor, bend knees and open them out to the side like a book. Join the soles of your feet together while sitting upright.\n\n
+
+Place fingertips on the floor directly behind you and lengthen up through the spine. You can also hold onto your ankles and hinge forward at the hips.</string>
+
+    <string name="boundanklebenefits">You’ll give your inner thighs and groin a nice stretch, while the forward bend creates a calming, cooling effect.</string>
+
+    <string name="seatedforwardfold">Sit and straighten your legs out in front of you, grounding your thighs into the floor. Hinge at the hips to elongate your torso over your thighs. Grab hold of the outer edges of your feet.</string>
+
+    <string name="seatedforwardfoldbenefits">This feel-good fold elongates the back of your body, lengthens your spine, and stretches your hamstrings.</string>
+
+    <string name="corpse">Lie faceup, bringing your legs to the outer edges of your mat, like a starfish. Splay your feet out to the sides. Place arms along sides, palms facing up. Close your eyes and relax</string>
+    <string name="corpsebenefits">Yep, it’s as simple as it sounds. Every yoga class includes Savasana, which relaxes the whole body and gives you space to absorb the benefits of the practice.</string>
+
+    <string name="plankpose">Start in Downward-Facing Dog. Shift forward so your shoulders are stacked over your wrists. Draw your navel in toward your spine and keep your hips from dropping.\n\n
+
+Reach heels back as you lengthen the crown of your head forward. Ground down into hands, pushing the floor away beneath you. Lengthen through the arms and broaden your chest.\n\n
+
+Pro tip: Come down to your knees if the pose is too intense.</string>
+
+    <string name="plankposebenefits">Considered one of the best moves for core strength, Plank Pose strengthens your abdominals and promotes stability.</string>
+
+    <string name="fourlimbedstaff">From Plank Pose, shift forward onto your tippy toes. Ground through your palms and broaden across the chest. Take an inhale.\n\n
+
+On an exhale, bend your elbows to a 90-degree angle. Keep your thighs lifted toward the ceiling. Imagine stretching your tailbone toward your heels as you lengthen through the spine. Hold your elbows in line with the torso. Gaze forward.\n\n
+
+To come out of the pose, release your knees to the ground. You can also keep your knees lifted and lower down onto your stomach for an extra ab challenge. Another option is to lift up and back to a Downward-Facing Dog and relax.</string>
+
+    <string name="fourlimbedstaffbenefits">Chaturanga is a key part of sun salutations, which you’ll find in Hatha, Sivananda, Ashtanga, and Vinyasa yoga classes. It promotes core stability and strengthens your abdominals and triceps.</string>
+
+    <string name="upwardfacingdog">Lie facedown on the floor. Bend elbows and place hands on the mat in line with lower ribs. Hug your elbows in line with your torso. Tuck your toes and take an inhale.\n\n
+
+As you exhale, push the floor away like a push-up. Straighten your arms and broaden across the chest, hovering your hips a few inches above the floor at the same time.\n\n
+
+Pro tip: If you have any low back pain or a spine injury, modify this pose. Keep your feet on the mat, point your toes, and press the tops of your feet down into the floor.\n\n
+
+As you bend your elbows and push up, keep your hips on the ground and roll your shoulders down the back. Straighten as much as possible through the arms and focus on elongating the spine. If you feel any pain or compression, slowly lower down onto your stomach.</string>
+
+    <string name="upwardfacingdogbenefits">You’ll open up your chest and shoulders, while stretching the abdominals and hip flexors. This pose comes after chaturanga in a classic sun salutation.</string>
+
+    <string name="halfmoon">Start in a Triangle Pose. Bend your front knee, keep it in line with your second toe. Step back foot in and walk front hand about 12 inches forward. Keep it on the floor or place it onto a block.\n\n
+
+Shift your weight onto your front foot and lift your back foot off the ground. Straighten out the front leg, keeping your front hand on the floor or on a block.\n\n
+
+Reach your back leg toward the wall behind you, foot flexed. Lift your back arm up toward the sky. Keep your gaze on the hand touching the ground.\n\n
+
+To come out of the pose, bend the front leg and slowly lower the lifted leg down toward the floor.\n\n
+
+Pro tip: To challenge your balance while you’re in the pose, gaze up at your top hand.</string>
+
+    <string name="halfmoonbenefits">This balancing pose strengthens your legs and outer hips. It also stretches your hamstrings and inner thighs, and promotes concentration.</string>
+
+    <string name="warriorfirst">Start in Downward-Facing Dog. Step one foot forward between your hands. Turn your back foot out, approximately 45 degrees, and ground down into your back foot.\n\n
+
+Line your feet up heel to heel, or slightly wider. Bend the front knee directly over the front ankle while you straighten your back leg. Draw your back heel down toward the floor.\n\n
+
+On an inhale, lengthen through the spine and lift your arms up. Place your hands on your hips or lift them up in a V toward the ceiling. Rotate your torso toward the front of the room.\n\n
+
+Pro tip: If it’s challenging to balance in this pose, widen your stance. Imagine standing on railroad tracks rather than skis.</string>
+
+    <string name="warriorfirstbenefits">This energizing pose strengthens your legs, arms, and back muscles. It also gives your chest, shoulders, neck, thighs, and ankles a nice stretch.</string>
+
+    <string name="warriorthird">From Warrior I, hinge forward at the hips. Rest your abdomen on your front thigh. Step the back foot in and shift your weight into your front foot.\n\n
+
+On an inhale, lift your back leg off the ground, straighten through the leg, and reach through your back heel. Press your palms together in front of your sternum (prayer hands) and gaze forward.\n\n
+
+You can also place your arms along the hips, outstretched in front of you like you’re flying, or on the floor underneath your shoulders.</string>
+
+    <string name="warriorthirdbenefits">This heating pose strengthens your legs, outer hips, and upper back. It also helps improve balance and posture.</string>
+
+    <string name="intensesidestretch">Start in Mountain Pose. Step your left foot back and place it flat on the floor at a 45-degree angle. Ground down into both feet and lift up through the thighs.\n\n
+
+Place your hands on your hips. Rotate your torso forward. Hinge at the hips and lengthen your spine over the front leg. Lift away from the floor and broaden across the chest.\n\n
+
+Pro tip: If it’s accessible to you, join your palms to touch behind your upper back. For tight shoulders, grab opposite elbows behind your back</string>
+
+    <string name="intensesidestretchbenefits">The pose helps calm the mind and stretches your spine, shoulders, wrists, hips, and hamstrings.</string>
+
+    <string name="dolphinpose">From all fours, come down onto your forearms. Spread your fingers wide and keep elbows shoulder-width apart.\n\n
+
+On an inhale, tuck your toes and lift your hips up and back like you’re in Downward-Facing Dog. Allow your head to hang above the floor.\n\n
+
+Ground down into your forearms and lift your upper body away from the floor. Press your heels down toward the mat for a nice hamstring stretch.</string>
+
+    <string name="dolphinbenefits">This pose helps build strength in your upper body in preparation for a headstand and forearm stand. It can also help calm your mind and relieve stress.</string>
+
+    <string name="bowpose">Lie facedown, roll your shoulder blades down the back, and send your arms back behind you. Bend your knees so that your feet are near your butt.\n\n
+
+On an inhale, lift your upper body and legs off the floor, keeping the hips grounded. Reach back to grab outer ankles. Use the leverage to lift your body up and broaden across the chest.</string>
+
+    <string name="bowposebenefits">This backbend stretches the whole front of the body, especially the chest and the front of your shoulders. It also gives a nice massage to your abdominal organs.</string>
+
+    <string name="camelpose">Kneel on the ground with your shins hip-width apart. Press the tops of your feet into the mat. Rest hands on your hips, thumbs near your lower back.\n\n
+
+Take an inhale and press down into your shins. Elongate through the spine. On an exhale, reach your arms back toward your heels. Use the leverage to lift your chest up toward the sky and get a nice shoulder stretch.\n\n
+
+Pro tip: Place your hand on two blocks or curl your toes under so you don’t have to reach as far.</string>
+
+    <string name="camelposebenefits">This backbend stretches the entire front of your body, from your throat to your ankles, and even helps strengthen back muscles.</string>
+
+    <string name="sideplank">Start in Downward-Facing Dog. Turn onto the outer edge of your right foot, making sure that your right foot and right hand are in alignment.\n\n
+
+Stack your left foot on top of your right. Lengthen through the spine through the crown of your head. Once you’re stable, lift your left hand up toward the sky. Press the floor away from you with the bottom hand.\n\n
+
+Pro tip: For an added challenge, lift your top foot off the grounded foot. If it helps, imagine you’re a starfish.</string>
+
+    <string name="sideplankbenefits">This pose strengthens your shoulders, upper back, and abdominals. It also promotes core and scapular stability, which is helpful if you’re working on inversions or arm balances.</string>
+
+    <string name="revolvvedtriangle">From Mountain Pose, step your left foot back and place it flat on the floor, turned out 45 degrees. Line your feet up heel to heel, or wider for more stability and space.\n\n
+
+Ground down into both feet and lift up through your thighs. Hinge forward at the hips and lengthen spine over your front thigh.\n\n
+
+Release your left hand to a block placed on the outer edge of your front foot. You can also place the block on the inside of the front foot. Rotate your torso to the right. Stretch your right arm up.</string>
+
+    <string name="revolvedtrianglebenefits">This balancing posture stretches your hamstrings and outer hips. Twisting promotes the overall health of the spine and engages your abdominal obliques to facilitate the twist.</string>
+
+    <string name="boatpose">Sit with knees bent. Place hands underneath knees. Tip back on the sitz bones and draw the lower back in and up as you hug your abs toward your spine. Lift shins parallel to the floor. Then stretch arms forward. Finally, straighten knees if you can</string>
+    <string name="boatposebenefits">You’ll strengthen your abdominals and hip flexors.</string>
+
+    <string name="crowpose">Start in Mountain Pose. Come down to a deep squat, with your feet a few inches apart and your heels lifted off the mat. Make your knees wider than your hips.\n\n
+
+Bring your palms down in front of you between your knees, shoulder-width apart. Hook your shins around your upper arms.\n\n
+
+Look forward, shift your weight forward onto your hands, and lift your feet off the floor. Pull up through your arms and abs, and round your upper back. If you can, bring your toes to touch beneath your tailbone.</string>
+
+    <string name="crowposebenefits">Crow Pose builds (and requires) serious strength in your arms, wrists, core, and hip flexors</string>
+    <string name="wheelpose">Lie faceup with knees bent, feet flat on the floor, like you’re prepping for Bridge Pose. Position your feet parallel to one another, hip-distance apart, with heels under the knees.\n\n
+
+On an inhale, bring your hands to the floor, framing your ears. Your fingers should be facing your heels.\n\n
+
+On an exhale, press down into your hands and feet. Lift your hips and chest off the floor. Straighten your arms and lift up through your shoulders.\n\n
+
+To come out of the pose, bend your arms and slowly lower your upper back down to the floor.</string>
+
+    <string name="wheelposebenefits">This backbend opens the entire front of the body. It strengthens the muscles in your back, shoulders, and hamstrings.</string>
+
+    <string name="wallassistedhandstand">Start in Downward-Facing Dog, facing the wall. Place your hands 6 inches from the wall. Bend one knee and step the foot in toward the wall. Lift the other leg into the air.\n\n
+
+When you’re just getting used to being upside down, you may feel the most comfortable hopping off the bottom foot to kick the lifted leg up toward the wall. Others rely on core strength to bring both the legs up. Either way, bring your feet together against the wall.\n\n
+
+To come out of the pose, bend your knees and use your core to slowly draw your legs down to the ground. After an inversion, take a few moments to readjust before returning to your practice.</string>
+    <string name="wallassistedhandstandbenefits">This energizing inversion strengthens your shoulders, arms, and wrists. It helps to promote a sense of balance, confidence, and calm.</string>
+    <string name="wallassistedforearm">Start on all fours, with your head facing the direction of the wall. Place your elbows on the floor and come down to your forearms.\n\n
+
+Bring them parallel to one other, shoulder-width apart. Tuck your toes, lift knees, and reach hips up and back into Dolphin Pose.\n\n
+
+Broaden across the chest and gaze at the floor between your forearms. Step one foot in a few inches. Lift the other leg up and straight back.\n\n
+
+Bend the knee of your grounded leg. Hop off that foot and send both feet up to the wall. Squeeze your inner thighs together and reach heels up toward the ceiling.\n\n
+
+To come out of the pose, bend your knees and use your core to bring your feet down to the ground. Take a few moments to relax before returning to your practice.</string>
+    <string name="forearmstandbenefits">This is a deep shoulder opener, making it a great preparatory pose for backbends. As an inversion, it also helps improve circulation.</string>
+
+    <string name="headstand">Warning: If you have neck injuries or medical issues, check with your doctor before attempting this pose. This pose is not appropriate for all practitioners and is best practiced under the watchful eye of a trusted teacher.\n\n
+
+Start on all fours facing the wall. Interlace your fingers with your knuckles facing the wall. Place elbows on the floor shoulder-width apart. Place the crown of your head on the floor into the basket created by your interlaced fingers.\n\n
+
+Tuck your toes under, lift knees off the floor, and reach your hips up and back. Press down into your forearms and lift up through shoulders.\n\n
+
+Walk your feet in closer as you broaden across the chest. Most of the weight should be concentrated in your forearms.\n\n
+
+Draw your knees into the chest with control, place your feet on the wall, and slide heels up the wall simultaneously. Reach up through your legs.\n\n
+
+Come out of the pose with control, maintaining the lift of your shoulders.</string>
+    <string name="headstandbenefits">This advanced inversion strengthens your upper back, shoulders, and arms, and benefits the circulatory, lymphatic, and endocrine systems.</string>
+    <string name="shoulderstand">Warning: If you have neck injuries or medical issues, check with your doctor before attempting this pose. This pose is not appropriate for all practitioners and is best practiced under the watchful eye of a trusted teacher.\n\n
+
+Neatly stack two blankets with the folded edges aligned with the short edge of your mat. Lay on the blankets and place the tops of your shoulders 2 inches from the edge of the blankets.\n\n
+
+Rest your head on the floor, off the blanket. Place your arms at your sides. Bend your knees and bring your feet to the floor, heels near butt.\n\n
+
+As you inhale, bring your knees in toward your chest. As you exhale, straighten your legs and send them up toward the sky. Place your hands on your lower back to support your posture, fingertips pointed down toward your tail bone.\n\n
+
+To come out of the pose, bend your knees in toward your chest and slowly lower down onto your back.</string>
+    <string name="shoulderstandbenefits">Like headstand, this inversion offers numerous benefits to multiple systems in the body. It’s a cooling and energetic way to end your practice.</string>
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_navigation_drawer_for_page">NavigationDrawerForPage</string>
+</resources>
