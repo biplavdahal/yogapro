@@ -1,5 +1,6 @@
 package com.binod.yoga;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -18,6 +19,8 @@ public class BoatPose extends AppCompatActivity {
     GifImageView image;
     ConstraintLayout constraintLayout;
     NestedScrollView color;
+    MaterialButton button;
+    //private CountDownTimers countDownTimers;
 
 
 
@@ -33,6 +36,7 @@ public class BoatPose extends AppCompatActivity {
         image=findViewById(R.id.mountainimage);
         constraintLayout=findViewById(R.id.layoutContainer);
         color=findViewById(R.id.nestedScrollView);
+        button=findViewById(R.id.startButton);
 
         image.setImageResource(R.drawable.boatpose);
         pose.setText("Boat pose");
@@ -40,7 +44,15 @@ public class BoatPose extends AppCompatActivity {
         benefitsAns.setText(getString(R.string.boatposebenefits));
         constraintLayout.setBackgroundColor(getResources().getColor(R.color.boatpose));
         color.setBackgroundColor(getResources().getColor(R.color.boatpose));
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(BoatPose.this,TimerActivity.class);
+                startActivity(intent);
+            }
+        });
         initializeButton();
+
 
     }
 
@@ -48,6 +60,7 @@ public class BoatPose extends AppCompatActivity {
     {
         MaterialButton button;
         button=findViewById(R.id.backbuttonofYogaday);
+        button.setBackgroundColor(getResources().getColor(R.color.boatpose));
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

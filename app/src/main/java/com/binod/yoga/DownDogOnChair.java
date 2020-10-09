@@ -1,5 +1,6 @@
 package com.binod.yoga;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -18,6 +19,7 @@ import pl.droidsonroids.gif.GifImageView;
         GifImageView image;
         ConstraintLayout constraintLayout;
         NestedScrollView color;
+        MaterialButton button;
 
 
 
@@ -32,6 +34,7 @@ import pl.droidsonroids.gif.GifImageView;
             image=findViewById(R.id.mountainimage);
             constraintLayout=findViewById(R.id.layoutContainer);
             color=findViewById(R.id.nestedScrollView);
+            button=findViewById(R.id.startButton);
 
             image.setImageResource(R.drawable.downdogonchair);
             pose.setText("Down dog on chair");
@@ -40,6 +43,13 @@ import pl.droidsonroids.gif.GifImageView;
             constraintLayout.setBackgroundColor(getResources().getColor(R.color.downdogonchair));
             color.setBackgroundColor(getResources().getColor(R.color.downdogonchair));
 
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent=new Intent(DownDogOnChair.this,TimerActivity.class);
+                    startActivity(intent);
+                }
+            });
 
 
             initializeButton();
@@ -50,6 +60,7 @@ import pl.droidsonroids.gif.GifImageView;
             MaterialButton button;
             button=findViewById(R.id.backbuttonofYogaday);
 
+            button.setBackgroundColor(getResources().getColor(R.color.downdogonchair));
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

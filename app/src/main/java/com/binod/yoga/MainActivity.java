@@ -14,6 +14,9 @@ import android.widget.FrameLayout;
 import com.binod.yoga.fragment.ExploreFragment;
 import com.binod.yoga.fragment.MyHomeFragment;
 import com.binod.yoga.fragment.VideoFragment;
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity  {
@@ -21,6 +24,7 @@ public class MainActivity extends AppCompatActivity  {
     private Toolbar mainToolbar;
     private BottomNavigationView bottomNavigationView;
     private FrameLayout mainFrame;
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +37,7 @@ public class MainActivity extends AppCompatActivity  {
         setSupportActionBar(mainToolbar);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        preparedAd();
 
         mainFrame=findViewById(R.id.mainFrame);
         bottomNavigationView=findViewById(R.id.bottomNavigation);
@@ -131,6 +136,27 @@ public class MainActivity extends AppCompatActivity  {
 
         }
 
+        else if(bottomNavigationView.getSelectedItemId()==R.id.bottomNavigationVideo)
+        {
+
+            if (mInterstitialAd.isLoaded())
+            {
+                mInterstitialAd.show();
+                mInterstitialAd.setAdListener(new AdListener(){
+                    @Override
+                    public void onAdClosed() {
+                        super.onAdClosed();
+                        bottomNavigationView.setSelectedItemId(R.id.bottomNavigationHome);
+                        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+                    }
+                });
+            }
+            else
+            {
+                bottomNavigationView.setSelectedItemId(R.id.bottomNavigationHome);
+            }
+        }
+
         else
         {
             bottomNavigationView.setSelectedItemId(R.id.bottomNavigationHome);
@@ -139,5 +165,12 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
+    public void preparedAd()
+    {
+        mInterstitialAd=new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3825341424461293/6250817694");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+    }
 
 }
+

@@ -50,6 +50,7 @@ public class IntermediateActivity extends AppCompatActivity implements RecycleVi
         collapsingToolbarLayout=findViewById(R.id.collapsingToolbar);
         imageView=findViewById(R.id.beginnersImageView);
         button=findViewById(R.id.backbutton);
+        button.setBackgroundColor(getResources().getColor(R.color.intermediate));
 
 
         button.setOnClickListener(new View.OnClickListener() {
