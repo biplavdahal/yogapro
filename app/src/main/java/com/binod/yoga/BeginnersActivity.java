@@ -45,6 +45,7 @@ public class BeginnersActivity extends AppCompatActivity implements RecycleViewC
         spaceItemDecoration spaceItemDecoration=new spaceItemDecoration(20);
         recycleViewBeginners.addItemDecoration(spaceItemDecoration);
         button=findViewById(R.id.backbutton);
+        button.setBackgroundColor(getResources().getColor(R.color.intermediate));
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

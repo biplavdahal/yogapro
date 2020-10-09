@@ -3,6 +3,7 @@ package com.binod.yoga;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -16,6 +17,7 @@ public class ChairPose extends AppCompatActivity {
     TextView pose,howToDoAns,benefitsAns;
     GifImageView image;
     ConstraintLayout constraintLayout;
+    MaterialButton button;
 
 
 
@@ -29,6 +31,7 @@ public class ChairPose extends AppCompatActivity {
         howToDoAns=findViewById(R.id.mountainposeText);
         image=findViewById(R.id.mountainimage);
         constraintLayout=findViewById(R.id.layoutContainer);
+        button=findViewById(R.id.startButton);
 
         image.setImageResource(R.drawable.chairpose);
         pose.setText("Chair pose");
@@ -37,6 +40,13 @@ public class ChairPose extends AppCompatActivity {
         constraintLayout.setBackgroundColor(getResources().getColor(R.color.chairpose));
 
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ChairPose.this,TimerActivity.class);
+                startActivity(intent);
+            }
+        });
 
         initializeButton();
     }
@@ -45,6 +55,7 @@ public class ChairPose extends AppCompatActivity {
     {
         MaterialButton button;
         button=findViewById(R.id.backbuttonofYogaday);
+        button.setBackgroundColor(getResources().getColor(R.color.chairpose));
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

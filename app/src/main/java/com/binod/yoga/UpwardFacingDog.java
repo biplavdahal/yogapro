@@ -1,5 +1,6 @@
 package com.binod.yoga;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -18,6 +19,7 @@ public class UpwardFacingDog extends AppCompatActivity {
     GifImageView image;
     ConstraintLayout constraintLayout;
     NestedScrollView color;
+    MaterialButton button;
 
 
 
@@ -32,6 +34,7 @@ public class UpwardFacingDog extends AppCompatActivity {
         image=findViewById(R.id.mountainimage);
         constraintLayout=findViewById(R.id.layoutContainer);
         color=findViewById(R.id.nestedScrollView);
+        button=findViewById(R.id.startButton);
 
         image.setImageResource(R.drawable.upwardfacingdog);
         pose.setText("Upward facing dog");
@@ -40,6 +43,13 @@ public class UpwardFacingDog extends AppCompatActivity {
         constraintLayout.setBackgroundColor(getResources().getColor(R.color.white));
         color.setBackgroundColor(getResources().getColor(R.color.white));
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(UpwardFacingDog.this,TimerActivity.class);
+                startActivity(intent);
+            }
+        });
 
         initializeButton();
 
@@ -50,6 +60,7 @@ public class UpwardFacingDog extends AppCompatActivity {
         MaterialButton button;
         button=findViewById(R.id.backbuttonofYogaday);
 
+        button.setBackgroundColor(getResources().getColor(R.color.white));
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

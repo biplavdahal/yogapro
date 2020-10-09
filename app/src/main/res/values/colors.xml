@@ -29,5 +29,6 @@
     <color name="forearmstand">#9a8789</color>
     <color name="headstand">#f9f7f8</color>
     <color name="wheelpose">#dedede</color>
+    <color name="intermediate">#938c7a</color>
 
 </resources>

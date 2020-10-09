@@ -8,60 +8,62 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/splash"
+        android:icon="@mipmap/splash"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/splash"
+        android:roundIcon="@mipmap/splash"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.binod.yoga.SplashScreen">
-
+        <activity android:name=".TimerActivity">
+        </activity>
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3825341424461293~6943204416" />
+
         <activity
-            android:name="com.binod.yoga.FullScreenVideo"
-            android:screenOrientation="fullSensor">
-
-        </activity>
-        <activity android:name="com.binod.yoga.PlankPose" />
-        <activity android:name="com.binod.yoga.FourLimbedStaff" />
-        <activity android:name="com.binod.yoga.UpwardFacingDog" />
-        <activity android:name="com.binod.yoga.HalfMoon" />
-        <activity android:name="com.binod.yoga.WarriorFirst" />
-        <activity android:name="com.binod.yoga.WarriorThird" />
-        <activity android:name="com.binod.yoga.IntenseSideStretch" />
-        <activity android:name="com.binod.yoga.DolphinPose" />
-        <activity android:name="com.binod.yoga.BowPose" />
-        <activity android:name="com.binod.yoga.CamelPose" />
-        <activity android:name="com.binod.yoga.SidePlank" />
-        <activity android:name="com.binod.yoga.RevolvedTriangle" />
-        <activity android:name="com.binod.yoga.CrowPose" />
-        <activity android:name="com.binod.yoga.BoatPose" />
-        <activity android:name="com.binod.yoga.Wheelpose" />
-        <activity android:name="com.binod.yoga.WallAssistedHandstand" />
-        <activity android:name="com.binod.yoga.WallAssistedForeArmStand" />
-        <activity android:name="com.binod.yoga.Headstand" />
-        <activity android:name="com.binod.yoga.ShoulderStand" />
-        <activity android:name="com.binod.yoga.IntermediateActivity" />
-        <activity android:name="com.binod.yoga.Corpse" />
-        <activity android:name="com.binod.yoga.SeatedForwardFold" />
-        <activity android:name="com.binod.yoga.BoundAnkle" />
-        <activity android:name="com.binod.yoga.BridgePose" />
-        <activity android:name="com.binod.yoga.TreePose" />
-        <activity android:name="com.binod.yoga.TrianglePose" />
-        <activity android:name="com.binod.yoga.WarriorSecond" />
-        <activity android:name="com.binod.yoga.DownwardFacingDog" />
-        <activity android:name="com.binod.yoga.DownDogOnChair" />
-        <activity android:name="com.binod.yoga.ChairPose" />
-        <activity android:name="com.binod.yoga.MountainPose" />
-        <activity android:name="com.binod.yoga.AdvancedActivity" />
-        <activity android:name="com.binod.yoga.BeginnersActivity" />
-        <activity android:name="com.binod.yoga.MainActivity">
-        </activity>
+            android:name=".FullScreenVideo"
+            android:screenOrientation="fullSensor"></activity>
+        <activity android:name=".PlankPose" />
+        <activity android:name=".FourLimbedStaff" />
+        <activity android:name=".UpwardFacingDog" />
+        <activity android:name=".HalfMoon" />
+        <activity android:name=".WarriorFirst" />
+        <activity android:name=".WarriorThird" />
+        <activity android:name=".IntenseSideStretch" />
+        <activity android:name=".DolphinPose" />
+        <activity android:name=".BowPose" />
+        <activity android:name=".CamelPose" />
+        <activity android:name=".SidePlank" />
+        <activity android:name=".RevolvedTriangle" />
+        <activity android:name=".CrowPose" />
+        <activity android:name=".BoatPose" />
+        <activity android:name=".Wheelpose" />
+        <activity android:name=".WallAssistedHandstand" />
+        <activity android:name=".WallAssistedForeArmStand" />
+        <activity android:name=".Headstand" />
+        <activity android:name=".ShoulderStand" />
+        <activity android:name=".IntermediateActivity" />
+        <activity android:name=".Corpse" />
+        <activity android:name=".SeatedForwardFold" />
+        <activity android:name=".BoundAnkle" />
+        <activity android:name=".BridgePose" />
+        <activity android:name=".TreePose" />
+        <activity android:name=".TrianglePose" />
+        <activity android:name=".WarriorSecond" />
+        <activity android:name=".DownwardFacingDog" />
+        <activity android:name=".DownDogOnChair" />
+        <activity android:name=".ChairPose" />
+        <activity android:name=".MountainPose" />
+        <activity android:name=".AdvancedActivity" />
+        <activity android:name=".BeginnersActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

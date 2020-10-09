@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.widget.NestedScrollView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -18,6 +19,7 @@ public class BridgePose extends AppCompatActivity {
     GifImageView image;
     ConstraintLayout constraintLayout;
     NestedScrollView color;
+    MaterialButton button;
 
 
 
@@ -32,6 +34,7 @@ public class BridgePose extends AppCompatActivity {
         image=findViewById(R.id.mountainimage);
         constraintLayout=findViewById(R.id.layoutContainer);
         color=findViewById(R.id.nestedScrollView);
+        button=findViewById(R.id.startButton);
 
         image.setImageResource(R.drawable.bridgepose);
         pose.setText("Bridge pose");
@@ -40,6 +43,13 @@ public class BridgePose extends AppCompatActivity {
         constraintLayout.setBackgroundColor(getResources().getColor(R.color.white));
         color.setBackgroundColor(getResources().getColor(R.color.white));
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(BridgePose.this,TimerActivity.class);
+                startActivity(intent);
+            }
+        });
 
         initializeButton();
 
@@ -50,6 +60,7 @@ public class BridgePose extends AppCompatActivity {
         MaterialButton button;
         button=findViewById(R.id.backbuttonofYogaday);
 
+        button.setBackgroundColor(getResources().getColor(R.color.white));
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

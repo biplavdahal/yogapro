@@ -1,5 +1,6 @@
 package com.binod.yoga;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -18,6 +19,7 @@ public class FourLimbedStaff extends AppCompatActivity {
     GifImageView image;
     ConstraintLayout constraintLayout;
     NestedScrollView color;
+    MaterialButton button;
 
 
 
@@ -32,6 +34,7 @@ public class FourLimbedStaff extends AppCompatActivity {
         image=findViewById(R.id.mountainimage);
         constraintLayout=findViewById(R.id.layoutContainer);
         color=findViewById(R.id.nestedScrollView);
+        button=findViewById(R.id.startButton);
 
         image.setImageResource(R.drawable.fourlimbedstaffpose);
         pose.setText("Four limbed staff");
@@ -41,6 +44,13 @@ public class FourLimbedStaff extends AppCompatActivity {
         color.setBackgroundColor(getResources().getColor(R.color.white));
 
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(FourLimbedStaff.this,TimerActivity.class);
+                startActivity(intent);
+            }
+        });
 
         initializeButton();
     }
@@ -50,6 +60,7 @@ public class FourLimbedStaff extends AppCompatActivity {
         MaterialButton button;
         button=findViewById(R.id.backbuttonofYogaday);
 
+        button.setBackgroundColor(getResources().getColor(R.color.white));
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
